@@ -28,4 +28,4 @@ A – Agreement class. B – Probability of a pixel belongs to R15 habitat type,
 [Oleh Prylutskyi](https://orcid.org/0000-0001-5730-517X)
 
 ## Bibliographic citation
-TBD
+Anna Kuzemko, Taras Kazantsev, Oleh Prylutsky, Andrii Tupikov & Olesandr Khodosovtsev. APPLYING THE HABITAT APPROACH TO THE QUALIFICATION OF ECOCIDE: CASE STUDIES FROM THE RUSSIAN-UKRAINIAN WAR (in press)
