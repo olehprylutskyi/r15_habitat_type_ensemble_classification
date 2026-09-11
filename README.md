@@ -1,4 +1,4 @@
-# Supervised + unsupervised ensemble classification of chalk outcrops
+# Ensemble classification of chalk outcrops in Ukraine using Random Forest with bagging, similarity in satellite embedding space, and vegetation releves
 
 ## Purpose
 The range of vegetation communities on chalk outcrops spans from the southwestern spurs of the Central European Upland and the Donets Ridge in the west to the spurs of the Volga Upland in the east and hardly goes beyond the boundaries of the Don River basin, with the exception of the eastern boundary, where chalky rocks are exposed along the right bank of the Volga River  (Kuzemko et al, 2022). This habit type is listed in Resolution 4 of the Bern Convention as E1.13 - Continental dry rocky steppic grasslands and dwarf scrub on chalk outcrops and is thus protected at the European level. According to the EUNIS habitat classification system, this habitat type corresponds with type [R15 - Continental dry rocky steppic grassland and dwarf scrub on chalk outcrops](https://biodiversity.europa.eu/habitats_eunis_revised/EUNISrev_R15). Under active combat during Russian invasion in Ukraine, most of this habitats suffered from explosive ordnance and tranches, posing as a case of ecocide.
@@ -19,7 +19,7 @@ Grassland Habitats of Ukraine (ISBN 978-617-7849-93-2)
 
 ![Fig. 1. R15 habitat type](https://github.com/olehprylutskyi/r15_habitat_type_ensemble_classification/blob/main/fig_repo.jpeg)
 
-A – Agreement class. B – Probability of a pixel belongs to R15 habitat type, obtained by Random Forest supervised classification with bagging. C – Probability of a pixel belongs to R15 habitat type, obtained by Alpha Earth dot product cosine distance from confirmed points (centroid similarity). C – Google Hybrid basemap (chalk outcrops are visible as bright spots along the river).
+A – Classification agreement between supervised (Random Forest with bagging) and unsupervised (cosine similarity in embedding space). B – Probability of a pixel belongs to R15 habitat type, obtained by Random Forest supervised classification with bagging. C – Probability of a pixel belongs to R15 habitat type, obtained by Alpha Earth dot product cosine distance from confirmed points (centroid similarity). C – Google Hybrid basemap (chalk outcrops are visible as bright spots along the river).
 
 ## Requirements
 - Google Earth Engine account
